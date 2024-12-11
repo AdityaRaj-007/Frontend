@@ -51,30 +51,6 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 **Note:** Prefix Vite environment variables with `VITE_`
 
-#### 5. Install Supabase Client
-
-Using npm:
-```bash
-npm install @supabase/supabase-js
-```
-
-Using Yarn:
-```bash
-yarn add @supabase/supabase-js
-```
-
-#### 6. Initialize Supabase Client
-
-Create a `src/supabase/supabaseClient.ts`:
-```typescript
-import { createClient } from '@supabase/supabase-js'
-
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
-
-export const supabase = createClient(supabaseUrl, supabaseAnonKey)
-```
-
 ## Expanding the ESLint Configuration
 
 ### Type-Aware Lint Rules
