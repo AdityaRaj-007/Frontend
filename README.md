@@ -123,8 +123,8 @@ export default tseslint.config({
 
 ## Recommended Plugins
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses Babel for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses SWC for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Additional Resources
 
@@ -137,4 +137,4 @@ export default tseslint.config({
 - Ensure environment variables are correctly set
 - Check Supabase project status
 - Verify network configurations
-- Review Supabase and Vite documentation for latest updates
+- Review Supabase and Vite documentation for the latest updates
